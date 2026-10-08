@@ -1,0 +1,23 @@
+h1 {color:darksalmon}
+p {
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+/* My font size will be 2x the default size */
+
+p, h2 {color:aqua}
+/* this is a grouped selector */
+
+p a {color: coral;}
+/* descendent selector */
+/* chaning colos of a tags inside of p tags */
+
+#welcome {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+/* id selectors only styles one element */
+
+.doublesize {font-size: 2em;}
