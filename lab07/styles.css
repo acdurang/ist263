@@ -20,6 +20,7 @@ h1, h2, h3 {
 /* Navigation background color */
 nav {
     background-color: #262626;
+    padding: 10px;
     margin-bottom: 30px;
 }
 
