@@ -1,0 +1,72 @@
+
+/* Body background and text color */
+body {
+    background-color: #F7F4EF;
+    color: #262626;
+}
+
+/* Link color */
+a {
+    color: #146C6E;
+}
+
+/* Heading color */
+h1, h2, h3 {
+    color: #8A3D2D;
+}
+.evenrow { 
+    background-color:crimson;
+}
+/* Navigation background color */
+nav {
+    background-color: #262626;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* Navigation link color */
+nav a {
+    color: #FFFFFF;
+}
+
+/* Navigation hover highlight color */
+nav a:hover {
+    background-color: #D9A441;
+    color: #262626;
+}
+.row {
+    display: flex;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.col {
+    flex: 1;
+    background-color: #f0e6f6;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+}
+
+input[type="text"], textarea {
+    width: 90%;
+    padding: 8px;
+}
+.tagline {
+    float: right;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer {
+    overflow: auto;
+}
