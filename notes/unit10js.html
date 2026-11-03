@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        h2{ 
+            border: 1px solid orange;
+            
+        }
+    </style>
+    <script>
+        function FirstFunctions() {
+            alert("Hello, World!");
+        }
+        function Clicky() {
+            alert("Thanks for clicking!");
+        }
+        function hovery() {
+            alert("Thanks for rolling over me!");
+        }
+    </script>
+</head>
+<body onload="FirstFunctions();">
+    <h1> JavaScript Basics </h1>
+    <p onclick="Clicky();"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h2 onmouseover="hovery();"> Hover Text</h2>
+</body>
+</html>
