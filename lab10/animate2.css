@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.container img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+
+#messages {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: black;
+}
+
